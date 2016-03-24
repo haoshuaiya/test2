@@ -1,0 +1,28 @@
+*{margin:0;padding: 0;}
+.wrap{
+	margin:0 auto;
+	margin-top: 200px;
+	width: 600px;
+	text-align: left;
+}
+li{list-style: none;}
+dl{margin-top: 15px;}
+dt,dd{display: inline-block;}
+dt{width: 100px;text-align: right;margin-right: 30px;line-height: 30px;}
+dd input{width: 200px;height: 30px;line-height: 30px;text-indent: 10px;}
+.security,.byte-count{height: 20px;margin-left: 138px;display: flex;display: -webkit-flex;margin-top: 15px;}
+.byte-count{font-size: 16px;color: #8e8e8e;}
+.security li{width: 50px;height: 20px;background: green;text-align: center;color: #fff;padding: 3px;}
+.security .selected{background: #ff9900;}
+.submit{width: 140px;height: 30px;line-height: 30px;margin-left: 138px;margin-top: 15px;color: #fff;border:none;background: #232335;cursor: pointer;}
+.user-warn,.pwd-warn,.repwd-warn{
+	display: none;
+	text-indent: 20px;
+	font-size: 16px;
+	color: #8e8e8e;
+	line-height: 30px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	background: url(../images/warn.png) left center no-repeat;
+}
+
